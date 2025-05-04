@@ -1,0 +1,46 @@
+
+
+.contact {
+    min-height: 80vh;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .contact-overline {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-title {
+    color: var(--lightest-slate);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-text {
+    color: var(--slate);
+    max-width: 500px;
+    margin: 0 auto 3rem;
+  }
+  
+  .contact-button {
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: 4px;
+    color: var(--green);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: var(--green-tint);
+  }

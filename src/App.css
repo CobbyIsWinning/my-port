@@ -1,0 +1,96 @@
+
+:root {
+    --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2, 12, 27, 0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+    --green: #64ffda;
+    --green-tint: rgba(100, 255, 218, 0.1);
+    --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--navy);
+    color: var(--slate);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .app {
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .main-content {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: 1200px;
+  }
+  
+  @media (min-width: 768px) {
+    .main-content {
+      padding: 0 3rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .main-content {
+      padding: 0 6rem;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--lightest-slate);
+    font-weight: 600;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .section-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .section-heading h2 {
+    font-size: 1.75rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+  }
+  
+  .section-heading .section-number {
+    color: var(--green);
+    font-family: var(--font-mono);
+    margin-right: 0.5rem;
+  }
+  
+  .section-heading .heading-line {
+    background-color: var(--lightest-navy);
+    height: 1px;
+    width: 100%;
+  }

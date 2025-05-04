@@ -1,0 +1,35 @@
+
+
+.footer {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .footer-text {
+    color: var(--slate);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-social a {
+    color: var(--light-slate);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: var(--green);
+    transform: translateY(-3px);
+  }
+  
+  @media (min-width: 768px) {
+    .footer-social {
+      display: none;
+    }
+  }

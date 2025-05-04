@@ -1,0 +1,118 @@
+
+
+.experience {
+    min-height: 100vh;
+    padding: 6rem 0;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience-tabs {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-tab {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--lightest-navy);
+    color: var(--slate);
+    cursor: pointer;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    padding: 0.75rem 1.25rem;
+    text-align: left;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .experience-tab.active {
+    border-bottom-color: var(--green);
+    color: var(--green);
+  }
+  
+  .experience-tab:hover {
+    background-color: var(--lightest-navy);
+    color: var(--green);
+  }
+  
+  .experience-content {
+    padding: 0 0.5rem;
+  }
+  
+  .experience-title {
+    color: var(--lightest-slate);
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .experience-company {
+    color: var(--green);
+  }
+  
+  .experience-date {
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .experience-description {
+    list-style-type: none;
+  }
+  
+  .experience-description li {
+    color: var(--slate);
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .experience-description li::before {
+    content: "▹";
+    color: var(--green);
+    position: absolute;
+    left: 0;
+  }
+  
+  .experience-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .experience-tech span {
+    color: var(--slate);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+  }
+  
+  @media (min-width: 768px) {
+    .experience-container {
+      flex-direction: row;
+    }
+    
+    .experience-tabs {
+      flex-direction: column;
+      margin-right: 2rem;
+      margin-bottom: 0;
+      min-width: 150px;
+      overflow-x: visible;
+    }
+    
+    .experience-tab {
+      border-bottom: none;
+      border-left: 2px solid var(--lightest-navy);
+      text-align: left;
+    }
+    
+    .experience-tab.active {
+      border-left-color: var(--green);
+      background-color: var(--lightest-navy);
+    }
+  }
