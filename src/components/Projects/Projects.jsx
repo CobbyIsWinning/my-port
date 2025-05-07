@@ -18,7 +18,7 @@ const Projects = ({ projects }) => {
               <p className="project-overline">Featured Project</p>
               <h3 className="project-title">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">{project.title}</a>
-              </h3>
+              </h3>                                                                                                                                                                                                                                                                                                                               
               <p className="project-description">{project.description}</p>
               <div className="project-tech-list">
                 {project.tech.map((tech, techIndex) => (
@@ -37,7 +37,7 @@ const Projects = ({ projects }) => {
             
             <div className="project-image">
               <div className="project-image-container">
-                <img src={`/api/placeholder/600/340`} alt={project.title} />
+                <img src={project.image} alt={project.title} />
               </div>
             </div>
           </div>

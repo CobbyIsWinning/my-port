@@ -36,11 +36,12 @@ export const personalInfo = {
   
   export const projects = [
     {
-      title: "Project One",
-      description: "A web application that helps users track their daily productivity and habits. Features include task management, progress visualization, and goal setting.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
+      title: "BK-CONSTRUCTION AND SOLUTIONS",
+      description: " A visually engaging website created for a construction company to highlight their completed projects, outline their building process, and offer a clear path for client inquiries. Designed with a clean layout, subtle animations, and immersive visuals to reflect the professionalism and quality of the brand",
+      tech: ["React",],
       github: "https://github.com/yourusername/project-one",
-      link: "https://project-one.example.com"
+      link: "https://bk-construction.vercel.app/",
+      image:"src/components/photos/bkconstphotos.png"
     },
     {
       title: "Project Two",

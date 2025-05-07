@@ -99,7 +99,7 @@
     height: 100%;
     object-fit: cover;
     mix-blend-mode: multiply;
-    filter: grayscale(100%) contrast(1);
+    filter: contrast(1);
   }
   
   @media (min-width: 768px) {
