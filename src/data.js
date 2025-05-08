@@ -41,7 +41,7 @@ export const personalInfo = {
       tech: ["React",],
       github: "https://github.com/yourusername/project-one",
       link: "https://bk-construction.vercel.app/",
-      image:"src/components/photos/bkconstphotos.png"
+      image:"public/projectphotos/bkconstphotos.png"
     },
     {
       title: "Project Two",
