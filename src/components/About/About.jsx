@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
   const skills = [
-    'JavaScript (ES6+)',
+    'JavaScript',
     'React',
     'TypeScript',
     'Node.js',
@@ -21,11 +21,11 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Hello! I'm a software engineer who enjoys creating things that live on the internet. 
-            My interest in web development started back in 2015 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+            Hello! I'm a software developer who enjoys creating things that live on the internet. 
+            My interest in web development started back in 2021 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working at a start-up, a large corporation, and a student-led design studio. 
+            Fast-forward to today, and I've had the privilege of working at a start-up, a large corporation, and a student-led development team. 
             My main focus these days is building accessible, inclusive products and digital experiences.
           </p>
           <p>

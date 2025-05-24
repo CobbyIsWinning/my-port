@@ -9,7 +9,7 @@ const SocialLinks = () => {
       <a href="https://github.com/CobbyIsWinning" target="_blank" rel="noopener noreferrer">
         <Github size={20} />
       </a>
-      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/dereck-okyere-boateng-a49505299/" target="_blank" rel="noopener noreferrer">
         <Linkedin size={20} />
       </a>
       <a href="mailto:cobbyboateng16@gmail.com">

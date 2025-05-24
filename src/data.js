@@ -1,4 +1,4 @@
-
+import bkconstphotos from "./components/photos/bkconstphotos.png";
 
 export const personalInfo = {
     name: "Dereck Okyere Boateng",
@@ -41,7 +41,7 @@ export const personalInfo = {
       tech: ["React",],
       github: "https://github.com/yourusername/project-one",
       link: "https://bk-construction.vercel.app/",
-      image: "src/components/photos/bkconstphotos.png",
+      image: bkconstphotos,
     },
     {
       title: "Project Two",
